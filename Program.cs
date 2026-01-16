@@ -24,7 +24,7 @@ class Program
         Console.WriteLine("Provide your letterboxd profile name:");
         var name = Console.ReadLine()?.Trim()?? "";
 
-        Console.WriteLine("\nStarted getting watchlist films...");
+        Console.WriteLine("\nGetting your watchlist films...");
         var films = new List<Film>();
         GetFilms(name, films);
         Console.WriteLine("\nCollected all films!");
